@@ -38,11 +38,6 @@ article{
 	font-family: "Trebuchet MS";
 }
 
-@media only screen and (max-width: 1000px) {
-  article {
-    font-size: 10px;
-  }
-}
 
 footer{
 	display: grid;
@@ -291,4 +286,22 @@ li {
  }
 button:hover {
 	opacity: 0.9;
+}
+
+@media only screen and (max-width: 1000px) {
+  article {
+    font-size: 12px;
+  }
+  aside img {
+  	padding: 2em 1em;
+  }
+  right img {
+  	padding: 1.7em 1em;
+  }
+  aside img:hover {
+	margin-top:0px;
+	}
+  right img:hover {
+	margin-top:0px;
+	}
 }
