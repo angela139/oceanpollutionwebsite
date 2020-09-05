@@ -272,7 +272,12 @@ li {
 	margin-top: 230px;
 }
 @media only screen and (max-width: 1349px) {
-	#thei {height: 820%;}
+	#thei {
+		height: 800%;
+	}
+	#the {
+		height: 1300%;
+	}
 }
 #bo {
 	grid-row: 3/4;
@@ -288,9 +293,9 @@ button:hover {
 	opacity: 0.9;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1349px) {
   article {
-    font-size: 30px;
+    font-size: 20px;
   }
   aside img {
   	padding: 2em 1em;
@@ -304,4 +309,5 @@ button:hover {
   right img:hover {
 	margin-top:0px;
 	}
+
 }
