@@ -38,6 +38,12 @@ article{
 	font-family: "Trebuchet MS";
 }
 
+@media only screen and (max-width: 600px) {
+  article {
+    font-size: 10px;
+  }
+}
+
 footer{
 	display: grid;
 	background:white;
