@@ -217,25 +217,23 @@ summary {
 	padding:10px;
 	margin-bottom: 20px;
 }
-#go {
-	margin-top: 70px;
-}
-#hrei {
+
+#surfrider {
 	margin-bottom: 200px;
 }
-.o {
+.programs {
 	grid-column: 2/3;
 }
-#hi {
+#help {
 	border:none;
 	font-size: 25px;
 }
-#hi h2 {
+#help h2 {
 	background-image:url(https://www.washingtonpost.com/resizer/z_4PZ4SgHGwkukUif7ECTtb1i40=/960x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DHJ6BDDFS4ZLXJVYIOYQXAPXVY.JPG);
 	background-size: cover;
 	padding: 15px;
 }
-#hi img {
+#help img {
 	width: 500px;
 	height: auto;
 	margin: auto;
@@ -244,11 +242,11 @@ summary {
 	border:none;
 	font-size: 18px;
 }
-#ok img {
+#oceanwhy img {
 	margin:auto;
 	width: 500px;
 }
-#ok img:hover {
+#oceanwhy img:hover {
 	opacity: 1;
 }
 iframe {
@@ -259,7 +257,7 @@ li {
 	font-family: "Courier";
 }
 
-#the {
+#bluesides {
 	background-image: url(http://oceanwildthings.com/wp-content/uploads/2012/06/Ocean-blue-calm-low-res.jpg);
 	background-size: cover;
 	height: 1270%;
@@ -267,7 +265,7 @@ li {
 	width: 235px;
 	margin-top: 230px;
 }
-#thei {
+#sides {
 	background-image: url(https://i5.walmartimages.com/asr/56f9a99b-5674-4292-9623-a9906b2210c0_1.835f08fe960892851ed13a8f606a1133.jpeg);
 	background-size: cover;
 	height: 905%;
@@ -275,22 +273,15 @@ li {
 	width: 235px;
 	margin-top: 230px;
 }
-@media only screen and (max-width: 1349px) {
-	#thei {
-		height: 800%;
-	}
-	#the {
-		height: 1500%;
-	}
-}
-#bo {
+
+#leftimgs {
 	grid-row: 3/4;
 }
 
-#bo img { 
+#leftimgs img { 
 	margin-top: 70px;
  }
- #boy img {
+ #rightimgs img {
  	margin-top: 70px;
  }
 button:hover {
@@ -312,6 +303,13 @@ button:hover {
 	}
   right img:hover {
 	margin-top:0px;
+	}
+
+	#sides {
+		height: 800%;
+	}
+	#bluesides {
+		height: 1400%;
 	}
 
 }
