@@ -290,7 +290,7 @@ button:hover {
 
 @media only screen and (max-width: 1000px) {
   article {
-    font-size: 15px;
+    font-size: 30px;
   }
   aside img {
   	padding: 2em 1em;
